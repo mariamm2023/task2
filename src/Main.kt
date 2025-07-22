@@ -48,7 +48,7 @@ fun main() {
         .forEach { println(it) }
 
 
-    // Requirement 4: Reducing and Aggregation
+    // Requirement4: Reducing and Aggregation
 
     println("\nTotal score using reduce:")
     val totalScore = studentScores.values.reduce { acc, score -> acc + score }
